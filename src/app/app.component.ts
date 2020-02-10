@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  onGameStarted() {
-    console.log("app component is picking up on event?");
+  onIntervalFired(firedNumber: number) {
+    console.log(firedNumber);
   }
 }
